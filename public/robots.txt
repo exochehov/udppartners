@@ -1,0 +1,17 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+Allow: /product/eft-full
+Allow: /status
+Allow: /features
+
+# Sitemap location
+Sitemap: https://undetect.net/sitemap.xml
+
+# Prevent crawling of sensitive URLs
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /api/
+Disallow: /checkout
+Disallow: /payment
+Disallow: /download
